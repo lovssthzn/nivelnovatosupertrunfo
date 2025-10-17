@@ -59,6 +59,8 @@ printf("Seja bem-vindo!\nAntes de começarmos, que tal criarmos suas 2 primeiras
 
   printf("\nÓtimo! Essas são as suas 2 cartas:\n");
 
+  double poder1 = populacao1 + area1 + pib1 + pontos1 + pibcap1 + dens1;
+
   printf("\n1° Carta \nEstado = %s \nCódigo = %s \nCidade = %s \nPopulação total = %d \nÁrea total = %.2f km² \nPIB = %.2f bilhões de reais \nPontos turisticos = %d", estado1, codcarta1, cidade1, populacao1, area1, pib1 / 1e9, pontos1);
   printf("\nDensidade Populacional = %.2f hab/km²", dens1);
   printf("\nPIB per Capita = %.2f reais\n", pibcap1);
