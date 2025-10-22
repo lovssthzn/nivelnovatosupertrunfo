@@ -83,8 +83,6 @@ printf("Seja bem-vindo!\nAntes de começarmos, que tal criarmos suas 2 primeiras
 
   printf("\n--------------------------------------------------------\n");
 
-  //-----------------------------------------------------
-
   // Comparações
 
   int respop, resarea, respib, responto, resdens, respibcap, respoder;
@@ -108,7 +106,7 @@ printf("Seja bem-vindo!\nAntes de começarmos, que tal criarmos suas 2 primeiras
   printf("\nPIB per capita: %d", respibcap);
   printf("\nPoder total: %d", respoder);
 
-   printf("\n--------------------------------------------------------\n");
+  printf("\n--------------------------------------------------------\n");
 
 return 0;
 
